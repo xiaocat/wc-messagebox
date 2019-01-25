@@ -37,6 +37,7 @@ export default {
     install (Vue, config={}) {
         globalConfig = config;
         Vue.prototype.$toast = Toast;
+        // by xiao 2019.1.25
         Vue.$toast = Toast;
     }
 };

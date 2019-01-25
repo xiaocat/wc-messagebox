@@ -37,5 +37,6 @@ export default {
     install (Vue, config={}) {
         globalConfig = config;
         Vue.prototype.$toast = Toast;
+        Vue.$toast = Toast;
     }
 };
